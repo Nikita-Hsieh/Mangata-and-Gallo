@@ -1,0 +1,22 @@
+{
+  "name": "mangata-and-gallo",
+  "version": "1.0.0",
+  "description": "M-G Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikita-Hsieh/Mangata-and-Gallo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikita-Hsieh/Mangata-and-Gallo/issues"
+  },
+  "homepage": "https://github.com/Nikita-Hsieh/Mangata-and-Gallo#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
