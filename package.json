@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Nikita-Hsieh/Mangata-and-Gallo#readme",
   "devDependencies": {
-    "node-sass": "^8.0.0"
+    "node-sass": "^8.0.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.1",
+    "webpack": "^5.76.3"
   }
 }
