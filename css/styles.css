@@ -116,7 +116,27 @@ a:active {
   display: flex;
   flex-direction: center;
   flex-grow: 1;
-  justify-content: center; }
+  justify-content: center;
+  padding: 15px; }
 
 .popular-item {
   padding: 5px; }
+
+.advertise {
+  position: relative; }
+
+.ad-container {
+  display: flex; }
+
+.ad-item {
+  flex-grow: 1; }
+
+.left {
+  background-color: #8F7A66; }
+
+.banner-img {
+  background-color: #AA8E72; }
+
+.wording {
+  align-content: left;
+  margin: 25px 25px; }

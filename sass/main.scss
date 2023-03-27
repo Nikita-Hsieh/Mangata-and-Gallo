@@ -175,6 +175,7 @@ a:active {
     flex-direction: center;
     flex-grow: 1;
     justify-content: center;
+    padding: 15px;
 }
 
 .popular-item {
@@ -182,3 +183,32 @@ a:active {
 
 }
 
+
+// advertise banner
+
+.advertise {
+    position: relative;
+
+}
+
+.ad-container {
+    display: flex;
+
+}
+
+.ad-item {
+    flex-grow: 1;
+}
+.left {
+    background-color: $color-primary-dark;
+}
+
+.banner-img {
+    background-color: $color-primary;
+}
+
+.wording {
+
+    align-content: left;
+    margin: 25px 25px;
+}
