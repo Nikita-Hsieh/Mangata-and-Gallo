@@ -1,6 +1,122 @@
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  box-sizing: border-box; }
 
 body {
-  background-color: #edefe8; }
+  background-color: #f9faf6;
+  font-family: 'Cormorant', serif; }
+
+a:link {
+  text-decoration: none;
+  margin: 5px;
+  color: #0e0d0d; }
+
+a:visited {
+  text-decoration: none;
+  margin: 5px;
+  color: #0e0d0d; }
+
+a:hover {
+  text-decoration: none;
+  margin: 5px;
+  color: #0e0d0d; }
+
+a:active {
+  text-decoration: none;
+  margin: 5px;
+  color: #0e0d0d; }
+
+.btn {
+  width: 180px;
+  height: 45px;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #ffffff;
+  outline: #ffffff;
+  margin: 15px;
+  padding: 10px; }
+
+.btn:hover {
+  transition: .3s ease-in-out;
+  background: #ffffff50;
+  border: 2px solid #ffffff; }
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100; }
+
+#top-banner {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #8F7A66;
+  color: #ffffff; }
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-weight: 600; }
+
+.nav {
+  display: flex;
+  flex-direction: flex-start; }
+
+.nav-item {
+  flex-direction: flex-start; }
+
+.user-info {
+  display: flex;
+  flex-direction: flex-end; }
+
+.home {
+  position: relative; }
+
+.home-bg {
+  display: flex;
+  filter: contrast(0.8); }
+
+.home-bg-img {
+  flex-grow: 1;
+  height: 70vh;
+  object-fit: cover; }
+
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  align-content: center; }
+
+.home-item {
+  text-align: center;
+  margin: 10px;
+  padding: 10px; }
+
+.home-content h1 {
+  font-size: 3rem;
+  font-weight: 600; }
+
+.home-content h4 {
+  font-size: 1.3rem;
+  font-weight: 500; }
+
+.popular {
+  position: relative;
+  margin: 25px; }
+
+.subtitle {
+  padding-left: 15px; }
+
+.popular-container {
+  display: flex;
+  flex-direction: center;
+  flex-grow: 1;
+  justify-content: center; }
+
+.popular-item {
+  padding: 5px; }
