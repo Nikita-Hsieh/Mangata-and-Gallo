@@ -187,28 +187,54 @@ a:active {
 // advertise banner
 
 .advertise {
-    position: relative;
-
-}
-
-.ad-container {
     display: flex;
-
+    flex-direction: row;
+    height: auto;
 }
 
 .ad-item {
+    align-self: stretch;
     flex-grow: 1;
-}
-.left {
-    background-color: $color-primary-dark;
+    flex-wrap: wrap;
 }
 
-.banner-img {
-    background-color: $color-primary;
+.promo {
+    background-color: $color-grey;
+    padding: 50px;
 }
 
-.wording {
 
-    align-content: left;
-    margin: 25px 25px;
+.promo h3 {
+    padding: 15px;
+    font-weight: 700;
+}
+
+.promo p {
+    padding: 15px;
+    font-weight: 400;
+}
+
+
+//image adjustment
+
+
+//new arrivals
+.arrivals {
+    padding: 20xp;
+    margin: 25px;
+}
+
+.arrivals-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.arrivals-item {
+    align-self: stretch;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
 }
