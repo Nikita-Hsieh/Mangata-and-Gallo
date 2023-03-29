@@ -10,22 +10,22 @@ body {
 a:link {
   text-decoration: none;
   margin: 5px;
-  color: #0e0d0d; }
+  color: #1f1d1d; }
 
 a:visited {
   text-decoration: none;
   margin: 5px;
-  color: #0e0d0d; }
+  color: #1f1d1d; }
 
 a:hover {
   text-decoration: none;
   margin: 5px;
-  color: #0e0d0d; }
+  color: #1f1d1d; }
 
 a:active {
   text-decoration: none;
   margin: 5px;
-  color: #0e0d0d; }
+  color: #1f1d1d; }
 
 .btn {
   width: 180px;
@@ -157,5 +157,72 @@ a:active {
 
 .arrivals-item {
   align-self: stretch;
+  flex-grow: 1; }
+
+.arrivals-item h6 h5 {
+  font-size: 1rem;
+  font-weight: 300; }
+
+.about-story {
+  display: flex;
+  flex-direction: row; }
+
+.story {
+  align-self: stretch;
   flex-grow: 1;
   flex-wrap: wrap; }
+
+.story-content {
+  background-color: #8F7A66;
+  color: #252020;
+  align-content: center; }
+
+.story p {
+  margin: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+  text-align: stretch; }
+
+.team {
+  background-color: #E9E4D9; }
+
+.designers {
+  display: flex;
+  flex-direction: row; }
+
+.designer {
+  align-self: center;
+  flex-grow: 1;
+  align-content: center;
+  padding: 25px; }
+
+.designer img {
+  border-radius: 100%;
+  border: solid 3px #AA8E72;
+  align-self: center;
+  align-items: center; }
+
+.designer h5 {
+  text-align: center; }
+
+.designer p {
+  text-align: center; }
+
+/* Solid border */
+hr.solid {
+  border-top: 1.5px solid #E9E4D9; }
+
+.inspire {
+  padding: 20xp;
+  margin: 25px; }
+
+inspire-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.inspire-item {
+  align-self: stretch;
+  flex-grow: 1; }
