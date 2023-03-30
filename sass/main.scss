@@ -347,6 +347,7 @@ hr.solid {
     background-color: $color-primary-light;
     display: flex;
     flex-direction: flex-start;
+    flex: 2;
 }
 
 
@@ -356,18 +357,23 @@ hr.solid {
     align-content: center;
 }
 
+.map {
+    padding: 10px;
+}
+
 .shop {
     display: flex;
     flex-direction: column;
 }
 
 .shop-list {
-
+    padding-left: 10px;
 }
 
 .footer-news {
     background-color: $color-primary-dark;
     color: $color-white;
+    flex: 1;
 }
 
 // form

@@ -242,20 +242,28 @@ hr.solid {
 .footer-nav {
   background-color: #E9E4D9;
   display: flex;
-  flex-direction: flex-start; }
+  flex-direction: flex-start;
+  flex: 2; }
 
 .sub-nav {
   align-items: stretch;
   flex-grow: 1;
   align-content: center; }
 
+.map {
+  padding: 10px; }
+
 .shop {
   display: flex;
   flex-direction: column; }
 
+.shop-list {
+  padding-left: 10px; }
+
 .footer-news {
   background-color: #8F7A66;
-  color: #ffffff; }
+  color: #ffffff;
+  flex: 1; }
 
 .newsletter-subscribe {
   color: #313437;
