@@ -217,6 +217,11 @@ a:active {
 
 //image adjustment
 
+.advertise img{
+    width: 100%;
+    object-fit: contain;      
+    text-align: center;
+}
 
 //new arrivals
 .arrivals {
@@ -243,17 +248,19 @@ a:active {
 }
 
 // about story
+.about {
+    height: auto;
+}
+
 .about-story {
     display: flex;
     flex-direction: row;
-    height: 400px;
 }
 
 
 .story {
     align-self: stretch;
     flex-grow: 1;
-    flex-wrap: wrap;
 }
 
 .story-content {
@@ -271,14 +278,14 @@ a:active {
 }
 
 // team / designers info
-.team {
-    background-color: $color-primary-light;
-    height: 400px;
-}
+// .team {
+//     background-color: $color-primary-light;
+//     height: auto;
+// }
 
 .designers {
     display: flex;
-    flex-direction: row;
+    flex-direction: flex-start;
     padding: 10px;
     margin: 10px;
 }
