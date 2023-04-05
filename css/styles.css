@@ -144,6 +144,11 @@ a:active {
   padding: 15px;
   font-weight: 400; }
 
+.advertise img {
+  width: 100%;
+  object-fit: contain;
+  text-align: center; }
+
 .arrivals {
   padding: 20xp;
   margin: 25px; }
@@ -166,12 +171,15 @@ a:active {
 .about-story {
   display: flex;
   flex-direction: row;
-  height: 400px; }
+  flex-grow: 2; }
 
 .story {
-  align-self: stretch;
-  flex-grow: 1;
+  flex-grow: 1 1 auto;
+  display: flex;
   flex-wrap: wrap; }
+
+.story-img {
+  min-height: 100%; }
 
 .story-content {
   background-color: #8F7A66;
@@ -184,33 +192,6 @@ a:active {
   font-weight: 600;
   font-style: italic;
   text-align: stretch; }
-
-.team {
-  background-color: #E9E4D9;
-  height: 400px; }
-
-.designers {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  margin: 10px; }
-
-.designer {
-  align-self: center;
-  flex-grow: 1;
-  align-content: center; }
-
-.profile {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.designer h5 {
-  text-align: center; }
-
-.designer p {
-  text-align: center; }
 
 /* Solid border */
 hr.solid {
