@@ -102,10 +102,14 @@ a:active {
 }
 
 
-.nav-item {
+.nav-sub {
     flex-direction: flex-start;
 }
 
+.nav-sub:hover {
+    font-weight: 800;
+    color: $color-primary;
+}
 
 //heading right
 .user-info {
@@ -179,8 +183,13 @@ a:active {
 }
 
 .popular-item {
-    padding: 5px;
+    padding: 10px;
 
+}
+
+.popular-img:hover {
+    transition: transform .2s;
+    transform: scale(1.02);
 }
 
 
@@ -251,6 +260,7 @@ a:active {
 
 
 .about-story {
+    height: 350px;
     display: flex;
     flex-direction: row;
     flex-grow:2;
@@ -284,38 +294,38 @@ a:active {
 }
 
 // team / designers info
-// .team {
-//     background-color: $color-primary-light;
-//     height: auto;
-// }
+.team {
+    background-color: $color-primary-light;
+    height: auto;
+}
 
-// .designers {
-//     display: flex;
-//     flex-direction: flex-start;
-//     padding: 10px;
-//     margin: 10px;
-// }
+.designers {
+    display: flex;
+    flex-direction: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
 
-// .designer {
-//     align-self: center;
-//     flex-grow: 1;
-//     align-content: center;
-// }
+.designer {
+    align-self: center;
+    flex-grow: 1;
+    align-content: center;
+}
 
-// .profile {
-//     position: relative;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-// }
+.profile {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-// .designer h5 {
-//     text-align: center;
-// }
+.designer h5 {
+    text-align: center;
+}
 
-// .designer p {
-//     text-align: center;
-// }
+.designer p {
+    text-align: center;
+}
 
 
 /* Solid border */

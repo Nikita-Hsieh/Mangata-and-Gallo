@@ -65,8 +65,12 @@ a:active {
   display: flex;
   flex-direction: flex-start; }
 
-.nav-item {
+.nav-sub {
   flex-direction: flex-start; }
+
+.nav-sub:hover {
+  font-weight: 800;
+  color: #AA8E72; }
 
 .user-info {
   display: flex;
@@ -120,7 +124,11 @@ a:active {
   padding: 15px; }
 
 .popular-item {
-  padding: 5px; }
+  padding: 10px; }
+
+.popular-img:hover {
+  transition: transform .2s;
+  transform: scale(1.02); }
 
 .advertise {
   display: flex;
@@ -169,6 +177,7 @@ a:active {
   font-weight: 300; }
 
 .about-story {
+  height: 350px;
   display: flex;
   flex-direction: row;
   flex-grow: 2; }
@@ -192,6 +201,33 @@ a:active {
   font-weight: 600;
   font-style: italic;
   text-align: stretch; }
+
+.team {
+  background-color: #E9E4D9;
+  height: auto; }
+
+.designers {
+  display: flex;
+  flex-direction: flex-start;
+  padding: 10px;
+  margin: 10px; }
+
+.designer {
+  align-self: center;
+  flex-grow: 1;
+  align-content: center; }
+
+.profile {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.designer h5 {
+  text-align: center; }
+
+.designer p {
+  text-align: center; }
 
 /* Solid border */
 hr.solid {
