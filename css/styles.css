@@ -131,31 +131,27 @@ a:active {
   transform: scale(1.02); }
 
 .advertise {
+  height: 250px;
   display: flex;
   flex-direction: row;
-  height: auto; }
+  flex-grow: 2; }
 
 .ad-item {
-  align-self: stretch;
-  flex-grow: 1;
+  flex-grow: 1 1 auto;
+  display: flex;
   flex-wrap: wrap; }
 
 .promo {
   background-color: #F5F5F5;
-  padding: 50px; }
+  color: #252020;
+  align-content: center;
+  line-height: 1.8;
+  padding: 5%;
+  min-width: 0;
+  box-sizing: border-box; }
 
-.promo h3 {
-  padding: 15px;
-  font-weight: 700; }
-
-.promo p {
-  padding: 15px;
-  font-weight: 400; }
-
-.advertise img {
-  width: 100%;
-  object-fit: contain;
-  text-align: center; }
+.promo-img {
+  min-height: 100%; }
 
 .arrivals {
   padding: 20xp;
@@ -170,17 +166,16 @@ a:active {
 
 .arrivals-item {
   align-self: stretch;
-  flex-grow: 1; }
-
-.arrivals-item h6 h5 {
-  font-size: 1rem;
+  flex-grow: 1;
+  font-size: 1.2rem;
   font-weight: 300; }
 
 .about-story {
-  height: 350px;
+  height: 300px;
   display: flex;
   flex-direction: row;
-  flex-grow: 2; }
+  flex-grow: 2;
+  background-color: #8F7A66; }
 
 .story {
   flex-grow: 1 1 auto;
@@ -188,46 +183,45 @@ a:active {
   flex-wrap: wrap; }
 
 .story-img {
-  min-height: 100%; }
+  min-height: 50%;
+  flex: .7;
+  margin: 25px;
+  align-items: baseline; }
 
 .story-content {
-  background-color: #8F7A66;
+  flex: 1.3;
   color: #252020;
-  align-content: center; }
-
-.story p {
-  margin: 30px;
-  font-size: 1.2rem;
+  align-content: center;
+  padding: 60px;
+  font-size: 1.3rem;
   font-weight: 600;
   font-style: italic;
-  text-align: stretch; }
+  text-align: stretch;
+  line-height: 1.5; }
 
-.team {
+.designer-container {
   background-color: #E9E4D9;
-  height: auto; }
-
-.designers {
+  height: 350px;
+  position: relative;
   display: flex;
-  flex-direction: flex-start;
-  padding: 10px;
-  margin: 10px; }
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #252020;
+  align-content: center;
+  flex-grow: 1; }
 
 .designer {
-  align-self: center;
-  flex-grow: 1;
-  align-content: center; }
-
-.profile {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  background-color: #F5F5F5;
+  align-items: baseline;
+  margin: 3%;
+  padding: 3%; }
 
 .designer h5 {
-  text-align: center; }
-
-.designer p {
-  text-align: center; }
+  text-align: center;
+  line-height: 2;
+  font-size: 1.2rem;
+  margin-top: 10px; }
 
 /* Solid border */
 hr.solid {
@@ -277,74 +271,28 @@ hr.solid {
 .shop-list {
   padding-left: 10px; }
 
-.footer-news {
+.footer-subscribe {
   background-color: #8F7A66;
   color: #ffffff;
   flex: 1; }
 
-.newsletter-subscribe {
-  color: #313437;
-  background-color: #fff;
-  padding: 50px 0; }
+.subscribe-content {
+  align-content: center;
+  align-items: stretch;
+  justify-content: center;
+  padding: 25px;
+  line-height: 1.4;
+  text-align: center; }
 
-.newsletter-subscribe p {
-  color: #7d8285;
-  line-height: 1.5; }
+label {
+  line-height: 1.9rem;
+  width: 100%; }
 
-.newsletter-subscribe h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 25px;
-  line-height: 1.5;
-  padding-top: 0;
-  margin-top: 0;
-  color: inherit; }
-
-.newsletter-subscribe .intro {
-  font-size: 16px;
-  max-width: 500px;
-  margin: 0 auto 25px; }
-
-.newsletter-subscribe .intro p {
-  margin-bottom: 35px; }
-
-.newsletter-subscribe form {
-  justify-content: center; }
-
-.newsletter-subscribe form .form-control {
-  border: none;
-  border-radius: 3px;
-  box-shadow: none;
-  outline: none;
-  color: inherit;
-  text-indent: 9px;
-  height: 45px;
-  margin-right: 10px;
-  min-width: 250px; }
-
-.newsletter-subscribe form .btn {
-  padding: 16px 32px;
-  border: none;
-  background: none;
-  box-shadow: none;
-  text-shadow: none;
-  opacity: 0.9;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 13px;
-  letter-spacing: 0.4px;
-  line-height: 1; }
-
-.newsletter-subscribe form .btn:hover {
-  opacity: 1; }
-
-.newsletter-subscribe form .btn:active {
-  transform: translateY(1px); }
-
-.newsletter-subscribe form .btn-primary {
-  background-color: #8F7A66 !important;
-  color: #fff;
-  outline: none !important; }
+input[type="submit"] {
+  padding: 3px;
+  margin-top: 0.6rem;
+  width: 100%;
+  color: #ffffff; }
 
 .copyright {
   background-color: #AA8E72;
