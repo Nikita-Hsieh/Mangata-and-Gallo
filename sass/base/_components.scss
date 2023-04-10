@@ -1,0 +1,52 @@
+
+//link style 
+
+a:link {
+    text-decoration: none;
+    margin: 5px;
+    color: $color-black;
+}
+
+a:visited {
+    text-decoration: none;
+    margin: 5px;
+    color: $color-black;
+}
+
+a:hover {
+    text-decoration: none;
+    margin: 5px;
+    color: $color-black;
+}
+
+a:active {
+    text-decoration: none;
+    margin: 5px;
+    color: $color-black;
+}
+
+
+// button style
+.btn {
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #ffffff;
+    outline: $color-white;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+  .btn:hover {
+    transition: .3s ease-in-out;
+    background: #ffffff50;
+    border: 2px solid #ffffff;
+
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }

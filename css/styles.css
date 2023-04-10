@@ -1,6 +1,13 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
   box-sizing: border-box; }
 
 body {
@@ -47,8 +54,7 @@ a:active {
   font-size: 18px;
   font-weight: 100; }
 
-#top-banner {
-  display: flex;
+#topbanner {
   justify-content: center;
   padding: 5px;
   background-color: #8F7A66;
